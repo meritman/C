@@ -5,8 +5,10 @@ void main(){
     scanf("%d",&a);
     for (x=0; x<=a; x++){
         a++;
-        printf("%d",a);
         printf("%d\n",x);
-        printf("thanks for using my program");
+        
+        //just making sure everything is working properly
+        
     }
+    printf("thanks for using my program");
 }
