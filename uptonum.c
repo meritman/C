@@ -7,5 +7,6 @@ void main(){
         a++;
         printf("%d",a);
         printf("%d\n",x);
+        printf("thanks for using my program");
     }
 }
