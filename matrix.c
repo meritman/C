@@ -96,7 +96,6 @@ switch(oper){
             printf("\n");
         }
         break;
-    
     default:
         printf("%c isn't a valid operator!", oper);
 }

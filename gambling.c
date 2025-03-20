@@ -2,11 +2,11 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <time.h>
-int main(){
+void main(){
     srand(time(NULL));
     int amount,r1,r2,r3,bet;
     char name[20];
-    char one, two, three;
+    char one, two, three, con[10]="yes";
     amount=10000;
     while(con=="yes"){
     printf("Whats your name?\n");
@@ -57,5 +57,4 @@ else{
     printf("\n%d deducted from your account, Balance: %d",bet,amount-bet);
 }
     }
-    
 }
