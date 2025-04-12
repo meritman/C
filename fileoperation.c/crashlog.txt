@@ -1,0 +1,2 @@
+🔥 This error is going straight into the log file!
+💥 Null pointer! Send help!

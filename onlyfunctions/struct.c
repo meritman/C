@@ -4,8 +4,6 @@ struct student{
     char name[20];
     float mark;
     };
-
-
 int main(){
     int n;
     printf("Enter the no of students to be added \n");
@@ -21,14 +19,10 @@ for (int k=0; k<n; k++){
     printf("\nEnter the mark of the %d student: \n",temp);
     scanf("%f",&s[k].mark);
 }
-
-
-
 for (int j = 0; j < n; j++)
 {
-    printf("test pass 1\n");
-    printf("test pass 3\n");
-    printf("test pass 3\n");
-}
-   
-}
+    printf("AGE:%d\t",s[j].age);
+    printf("NAME:%s\t",s[j].name);
+    printf("MARK:%f",s[j].mark);
+    printf("\n");
+}}
