@@ -1,7 +1,7 @@
 #include <stdio.h>
 void main(){
     int a,b,ans;
-    ch1ar ch1;
+    char ch1;
     printf("Enter the First number");
     scanf("%d",&a);
     printf("Enter the second number");
